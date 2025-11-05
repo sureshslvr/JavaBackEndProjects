@@ -6,6 +6,7 @@ This repository contains mini and major projects completed as part of the FLM tr
 ## Mini Projects:
     - Thomos Travels
     - Console-Based Music Player
+    - Gated Community Management System
 
 ### 1. Thomas Travels - Driver Travel Management System
 
@@ -70,5 +71,60 @@ Menu-driven console interface with options such as:
 12. Exit  
 
 Users can interact via numeric menu choices to perform the respective operations on songs and playlists.
+---
+
+### 3. Gated Community Management System (JSP + Servlets + Hibernate + MySQL)
+
+**Project Description:**
+A web-based application designed to manage resident complaints efficiently in a gated community.
+Residents can raise complaints, track their progress, and view their complaint history, while admins can view all complaints and update their statuses.
+
+**Core Objective:**
+To automate and streamline the complaint registration and resolution process between residents and the admin team using a simple, responsive web interface.
+
+**Key Modules:**
+
+* **Resident Module:**
+
+  * Register and log in.
+  * Raise new complaints with category, subject, and description.
+  * Edit or delete existing complaints before resolution.
+  * View all current and historical complaints.
+
+* **Admin Module:**
+
+  * Log in to the admin dashboard.
+  * View all complaints raised by residents.
+  * Update complaint status (Pending, In Progress, Resolved).
+
+**Technology Stack:**
+
+* **Frontend:** JSP, HTML, CSS, Bootstrap 5
+* **Backend:** Java Servlets, Hibernate ORM
+* **Database:** MySQL
+* **Server:** Apache Tomcat 10
+
+**Core Concepts Demonstrated:**
+
+* MVC (Model–View–Controller) architecture
+* CRUD operations using Hibernate ORM
+* JSP–Servlet interaction with request attributes
+* Session management for user authentication
+* Dynamic form handling and Bootstrap UI integration
+
+**Database Tables:**
+
+* **Residents:** Stores user information and role (resident/admin).
+* **Complaints:** Stores complaint details, category, description, and status.
+
+**User Roles:**
+
+* **Resident:** Can raise, edit, view, or delete complaints.
+* **Admin:** Can view and update complaint statuses.
+
+**Outcome:**
+Demonstrates practical integration of **Java backend technologies** with **Hibernate ORM and JSP**, providing a complete end-to-end workflow from database to frontend interface.
+
+---
 
 ***
