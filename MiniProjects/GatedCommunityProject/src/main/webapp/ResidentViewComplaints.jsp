@@ -88,7 +88,10 @@
         <h2>📋 My Complaints</h2>
 
         <table class="table table-bordered table-striped">
-            <caption>Here are your complaints</caption>
+            <caption>Here are your complaints <a href="ResidentBackToDashboardServlet" class="text-decoration-none fw-semibold ms-2"
+                    style="color: #0d6efd;">
+                    (Back to Dashboard)</a></caption>
+            
             <thead>
                 <tr>
                     <th>Complaint ID</th>

@@ -15,6 +15,7 @@ public class HibernateUtil {
                 cfg.addAnnotatedClass(Residents.class);
                 cfg.addAnnotatedClass(Complaints.class);
                 sessionFactory = cfg.buildSessionFactory();
+
         }
         return sessionFactory;
     }

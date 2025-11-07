@@ -66,7 +66,9 @@
     <div class="container">
         <h2>📜 Your Complaint History</h2>
         <table class="table table-bordered table-striped">
-            <caption>Here is your complaint history</caption>
+            <caption>Here is your complaint history <a href="ResidentBackToDashboardServlet" class="text-decoration-none fw-semibold ms-2"
+                    style="color: #0d6efd;">
+                    (Back to Dashboard)</a></caption>
             <thead>
                 <tr>
                     <th>Complaint ID</th>
